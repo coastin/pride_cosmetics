@@ -1,0 +1,26 @@
+{
+  "name": "pride_cosmetics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "webpack-dev-server",
+    "compile:styles": "node-sass ./src/styles -o ./public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coastin/pride_cosmetics.git"
+  },
+  "author": "coastin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coastin/pride_cosmetics/issues"
+  },
+  "homepage": "https://github.com/coastin/pride_cosmetics#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
